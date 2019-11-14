@@ -45,10 +45,6 @@ msgstr "Cableado"
 msgid "Wireless"
 msgstr "Inalámbrico"
 
-#: src/connection.c:72
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
 #: src/connection.c:74
 msgid "Cellular"
 msgstr "Celular"
@@ -72,10 +68,6 @@ msgstr "C_ableado"
 #: src/connection.c:93
 msgid "_Wireless"
 msgstr "_Inalámbrico"
-
-#: src/connection.c:95
-msgid "_Bluetooth"
-msgstr "_Bluetooth"
 
 #: src/connection.c:97
 msgid "_Cellular"
