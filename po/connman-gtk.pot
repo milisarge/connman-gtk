@@ -45,10 +45,6 @@ msgstr ""
 msgid "Wireless"
 msgstr ""
 
-#: src/connection.c:72
-msgid "Bluetooth"
-msgstr ""
-
 #: src/connection.c:74
 msgid "Cellular"
 msgstr ""
@@ -71,10 +67,6 @@ msgstr ""
 
 #: src/connection.c:93
 msgid "_Wireless"
-msgstr ""
-
-#: src/connection.c:95
-msgid "_Bluetooth"
 msgstr ""
 
 #: src/connection.c:97
