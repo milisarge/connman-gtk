@@ -30,8 +30,6 @@ enum connection_type connection_type_from_string(const gchar *str)
 		return CONNECTION_TYPE_ETHERNET;
 	if(!strcmp(str, "wifi"))
 		return CONNECTION_TYPE_WIRELESS;
-	if(!strcmp(str, "bluetooth"))
-		return CONNECTION_TYPE_BLUETOOTH;
 	if(!strcmp(str, "cellular"))
 		return CONNECTION_TYPE_CELLULAR;
 	if(!strcmp(str, "p2p"))
@@ -68,8 +66,6 @@ const gchar *translated_tech_name(enum connection_type type)
 		return _("Wired");
 	case CONNECTION_TYPE_WIRELESS:
 		return _("Wireless");
-	case CONNECTION_TYPE_BLUETOOTH:
-		return _("Bluetooth");
 	case CONNECTION_TYPE_CELLULAR:
 		return _("Cellular");
 	case CONNECTION_TYPE_P2P:
@@ -91,8 +87,6 @@ const gchar *mnemonic_tech_name(enum connection_type type)
 		return _("W_ired");
 	case CONNECTION_TYPE_WIRELESS:
 		return _("_Wireless");
-	case CONNECTION_TYPE_BLUETOOTH:
-		return _("_Bluetooth");
 	case CONNECTION_TYPE_CELLULAR:
 		return _("_Cellular");
 	case CONNECTION_TYPE_P2P:
