@@ -46,10 +46,6 @@ msgstr "Проводное"
 msgid "Wireless"
 msgstr "Беспроводное"
 
-#: src/connection.c:72
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
 #: src/connection.c:74
 msgid "Cellular"
 msgstr "Модемное"
@@ -73,10 +69,6 @@ msgstr "_Проводное"
 #: src/connection.c:93
 msgid "_Wireless"
 msgstr "_Беспроводное"
-
-#: src/connection.c:95
-msgid "_Bluetooth"
-msgstr "_Bluetooth"
 
 #: src/connection.c:97
 msgid "_Cellular"
