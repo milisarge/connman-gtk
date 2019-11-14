@@ -1,7 +1,9 @@
-connman-gtk
-===========
+connman-gtk-nobluetooth
+=======================
 
 GTK GUI for ConnMan.
+
+This is a fork that removes the Bluetooth functionality, which was not working for me and interferred with Blueberry.
 
 ![screenshot-1](https://raw.githubusercontent.com/jgke/jgke.github.io/connman-gtk/connman-gtk-1.png)
 ![screenshot-2](https://raw.githubusercontent.com/jgke/jgke.github.io/connman-gtk/connman-gtk-2.png)
