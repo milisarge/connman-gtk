@@ -1,7 +1,8 @@
 [Desktop Entry]
 Type=Application
 Exec=connman-gtk
-Name=Connman Settings
+Name=Network Settings
+Name[tr]=Ağ Ayarları
 Categories=GTK;GNOME;Settings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;HardwareSettings
 X-GNOME-Settings-Panel=connman-gtk
 X-Unity-Settings-Panel=connman-gtk
