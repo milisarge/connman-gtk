@@ -91,7 +91,7 @@ static void create_content(void)
 	gtk_grid_attach(GTK_GRID(grid), frame, 0, 0, 1, 1);
 	gtk_grid_attach(GTK_GRID(grid), notebook, 1, 0, 1, 2);
 	gtk_container_add(GTK_CONTAINER(main_window), grid);
-
+/*
 #ifdef HAVE_CONFIG_SETTINGS
 	settings = gtk_button_new_with_mnemonic(_("_Settings"));
 	g_signal_connect(settings, "clicked", G_CALLBACK(config_window_open),
@@ -101,6 +101,7 @@ static void create_content(void)
 	gtk_widget_set_valign(settings, GTK_ALIGN_END);
 	gtk_grid_attach(GTK_GRID(grid), settings, 0, 1, 1, 1);
 #endif
+*/
 }
 
 static void tech_item_mnemonic_callback(GtkWidget *widget, gboolean arg1,
@@ -130,7 +131,12 @@ static void add_technology(GDBusConnection *connection, GVariant *technology)
 	properties = g_variant_get_child_value(technology, 1);
 
 	object_path = g_variant_get_string(path, NULL);
-
+	
+	// dont add bluetooth tech
+	if (strcmp("/net/connman/technology/bluetooth" , object_path) == 0) {
+		goto out;
+	}
+	
 	if(g_hash_table_contains(technology_types, object_path))
 		goto out;
 
@@ -153,7 +159,7 @@ static void add_technology(GDBusConnection *connection, GVariant *technology)
 	g_hash_table_insert(technology_types, g_strdup(object_path),
 	                    &item->type);
 	technologies[item->type] = item;
-
+	printf("->%s\n",object_path);
 	gtk_container_add(GTK_CONTAINER(list), item->list_item->item);
 	gtk_notebook_append_page(GTK_NOTEBOOK(notebook),
 	                         item->settings->grid, NULL);

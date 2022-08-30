@@ -54,7 +54,7 @@ msgstr "VPN"
 
 #: src/connection.c:80
 msgid "Unknown"
-msgstr "Desconocido"
+msgstr "Bilinmeyen"
 
 #: src/connection.c:91
 msgid "W_ired"
@@ -90,7 +90,7 @@ msgstr "_İptal"
 
 #: src/dialog.c:283
 msgid "Operation failed"
-msgstr "İşlem yapılamadı"
+msgstr "İşlem başarısız"
 
 #: src/main.c:95
 msgid "_Settings"
@@ -98,11 +98,11 @@ msgstr "_Ayarlar"
 
 #: src/main.c:415 src/vpn.c:145
 msgid "Failed to connect to ConnMan."
-msgstr "Fracaso al conectar con ConnMan."
+msgstr "ConnMan bağlantısı başarısız."
 
 #: src/main.c:573
 msgid "Failed to connect to system DBus."
-msgstr "Fracaso al conectar con el sistema DBus."
+msgstr "DBus bağlantısı başarısız."
 
 #: src/main.c:619 src/settings.c:689
 msgid "Network Settings"
@@ -110,116 +110,116 @@ msgstr "Ağ Ayarları"
 
 #: src/service.c:334 src/settings.c:160 src/settings.c:387
 msgid "IPv4 address"
-msgstr "Dirección IPv4"
+msgstr "IPv4 adresi"
 
 #: src/service.c:335
 msgid "IPv4 gateway"
-msgstr "Puerta de enlace IPv4"
+msgstr "IPv4 geçiti"
 
 #: src/service.c:336 src/settings.c:161 src/settings.c:388
 msgid "IPv6 address"
-msgstr "Dirección IPv6"
+msgstr "IPv6 adresi"
 
 #: src/service.c:337
 msgid "IPv6 gateway"
-msgstr "Puerta de enlace IPv6"
+msgstr "IPv6 geçiti"
 
 #: src/service.c:339 src/settings.c:158
 msgid "MAC address"
-msgstr "Dirección MAC"
+msgstr "MAC adresi"
 
 #: src/service.c:406
 msgid "IEEE8021x secured services have to be manually configured."
-msgstr "Servicio IEEE8021x seguro tiene que configurado manualmente."
+msgstr "IEEE8021x güvenli servisi elle ayarlanmalıdır."
 
 #: src/service.c:410 src/service.c:442
 msgid "Failed to toggle connection state."
-msgstr "Fracaso al alternar el estado de conexión."
+msgstr "Bağlantı durum değişimi başarısız."
 
 #: src/service.c:517
 msgid "Hidden ieee8021x secured network"
-msgstr "Ocultar red segura ieee8021x"
+msgstr "Gizli güvenli ieee8021x ağ"
 
 #: src/service.c:518
 msgid "Hidden WPA secured network"
-msgstr "Ocultar red segura WPA"
+msgstr "Gizli güvenli WPA ağ"
 
 #: src/service.c:519
 msgid "Hidden WPS secured network"
-msgstr "Ocultar red segura WPS"
+msgstr "Gizli güvenli WPS ağ"
 
 #: src/service.c:520
 msgid "Hidden unsecured network"
-msgstr "Ocultar red insegura"
+msgstr "Gizli güvensiz ağ"
 
 #: src/service.c:544 src/settings.c:359
 msgid "Direct"
-msgstr "Directo"
+msgstr "Doğrudan"
 
 #: src/service.c:546 src/settings.c:242 src/settings.c:246 src/settings.c:361
 msgid "Automatic"
-msgstr "Automatico"
+msgstr "Otomatik"
 
 #: src/service.c:548 src/settings.c:136 src/settings.c:239
 msgid "None"
-msgstr "Ninguno"
+msgstr "Hiçbiri"
 
 #: src/service.c:560
 msgid "On"
-msgstr "Encendido"
+msgstr "Açık"
 
 #: src/service.c:561
 msgid "Off"
-msgstr "Apagado"
+msgstr "Kapalı"
 
 #: src/settings.c:136 src/settings.c:140
 msgid "Security"
-msgstr "Seguridad"
+msgstr "Güvenlik"
 
 #: src/settings.c:149 src/settings.c:380
 msgid "_Info"
-msgstr "_Informacion"
+msgstr "_Bilgi"
 
 #: src/settings.c:152
 msgid "Autoconnect"
-msgstr "Autoconectar"
+msgstr "Otomatik bağlan"
 
 #: src/settings.c:155 src/settings.c:383
 msgid "Name"
-msgstr "Nombre"
+msgstr "Ad"
 
 #: src/settings.c:156 src/settings.c:385
 msgid "State"
-msgstr "Estado"
+msgstr "Durum"
 
 #: src/settings.c:159
 msgid "Interface"
-msgstr "Interfaz"
+msgstr "Arayüz"
 
 #: src/settings.c:162 src/settings.c:305 src/settings.c:329 src/settings.c:389
 msgid "Nameservers"
-msgstr "Servidor de nombres"
+msgstr "Ad sunucuları"
 
 #: src/settings.c:187
 msgid "IP _details"
-msgstr "detalles _IP"
+msgstr "IP _ayrıntıları"
 
 #: src/settings.c:188
 msgid "IPv4 method"
-msgstr "Método IPv4"
+msgstr "IPv4 yöntemi"
 
 #: src/settings.c:189 src/settings.c:195 src/settings.c:260 src/settings.c:268
 msgid "Address"
-msgstr "Dirección"
+msgstr "Adres"
 
 #: src/settings.c:190 src/settings.c:196 src/settings.c:261 src/settings.c:271
 #: src/settings_content.c:676
 msgid "Gateway"
-msgstr "Puerta de enlace"
+msgstr "Geçit"
 
 #: src/settings.c:194
 msgid "IPv6 method"
-msgstr "Método IPv6"
+msgstr "IPv6 yöntemi"
 
 #: src/settings.c:215
 msgid "IPv_4"
@@ -235,47 +235,47 @@ msgstr "Yöntem"
 
 #: src/settings.c:254 src/settings.c:363
 msgid "Manual"
-msgstr "Manual"
+msgstr "Elle"
 
 #: src/settings.c:263 src/settings.c:275 src/settings_content.c:674
 msgid "Netmask"
-msgstr "Mascara de red"
+msgstr "Ağ maskesi"
 
 #: src/settings.c:265 src/settings_content.c:675 src/settings_content.c:911
 msgid "Prefix length"
-msgstr "Longitud de prefijo"
+msgstr "Önek uzunluğu"
 
 #: src/settings.c:284
 msgid "Privacy"
-msgstr "Privacidad"
+msgstr "Gizlilik"
 
 #: src/settings.c:289 src/technology.c:143
 msgid "Disabled"
-msgstr "Deshatibar"
+msgstr "Pasif"
 
 #: src/settings.c:291
 msgid "Enabled"
-msgstr "Activar"
+msgstr "Aktif"
 
 #: src/settings.c:293
 msgid "Prefered"
-msgstr "Preferido"
+msgstr "Tercih edilen"
 
 #: src/settings.c:303
 msgid "_Servers"
-msgstr "_Servidores"
+msgstr "_Sunucular"
 
 #: src/settings.c:306 src/settings.c:334
 msgid "Timeservers"
-msgstr "Servidores de "
+msgstr "Zaman Sunucuları "
 
 #: src/settings.c:307 src/settings.c:342
 msgid "Domains"
-msgstr "Dominios"
+msgstr "Alanlar"
 
 #: src/settings.c:308
 msgid "Proxy method"
-msgstr "Método proxy"
+msgstr "Vekil Yöntemi"
 
 #: src/settings.c:312 src/settings.c:369
 msgid "URL"
@@ -287,23 +287,23 @@ msgstr "Sunucular"
 
 #: src/settings.c:316 src/settings.c:374
 msgid "Excludes"
-msgstr "Excluye"
+msgstr "Hariçler"
 
 #: src/settings.c:328
 msgid "_Nameservers"
-msgstr "_Servidor de nombres"
+msgstr "_Ad Sunucuları"
 
 #: src/settings.c:333
 msgid "_Timeservers"
-msgstr "_Zaman-sunucuları"
+msgstr "_Zaman Sunucuları"
 
 #: src/settings.c:337
 msgid "Custom Timeservers"
-msgstr "Timeservers Personalizados"
+msgstr "Özel Zaman Sunucuları"
 
 #: src/settings.c:341
 msgid "_Domains"
-msgstr "_Alanadları"
+msgstr "_Alan Adları"
 
 #: src/settings.c:354
 msgid "_Proxy"
@@ -319,15 +319,15 @@ msgstr "Host"
 
 #: src/settings.c:401
 msgid "Server fingerprint"
-msgstr "Impresora digital del servidor"
+msgstr "Sunucu parmakizi"
 
 #: src/settings.c:403 src/settings.c:416
 msgid "Certificate Authority file"
-msgstr "Archivo de autoridad de certificado"
+msgstr "Certificate Authority file"
 
 #: src/settings.c:405 src/settings.c:418
 msgid "Client certificate file"
-msgstr "Archivo de certificado del cliente"
+msgstr "Client certificate filee"
 
 #: src/settings.c:407
 msgid "VPN host"
@@ -335,15 +335,15 @@ msgstr "VPN servis"
 
 #: src/settings.c:420
 msgid "Client private key file"
-msgstr "Archivo de clave privada del cliente"
+msgstr "Client private key file"
 
 #: src/settings.c:422
 msgid "Maximum transmission unit (MTU)"
-msgstr "Unidad de transmisión máxima (MTU)"
+msgstr "Maximum transmission unit (MTU)"
 
 #: src/settings.c:424
 msgid "Peer certificate type"
-msgstr "Tipo de certificado de pares"
+msgstr "Peer certificate type"
 
 #: src/settings.c:426
 msgid "Protocol"
@@ -355,35 +355,35 @@ msgstr "Port"
 
 #: src/settings.c:428
 msgid "Authenticate using username/password"
-msgstr "Autenticar usando usuario/contraseña"
+msgstr "Authenticate using username/password"
 
 #: src/settings.c:430
 msgid "Private key password file"
-msgstr "Archivo de contraseña de clave privada"
+msgstr "Private key password file"
 
 #: src/settings.c:432
 msgid "Do not cache password"
-msgstr "No almacenar la contraseña en cache"
+msgstr "Do not cache password"
 
 #: src/settings.c:434
 msgid "Cipher"
-msgstr "Cifrar"
+msgstr "Cipher"
 
 #: src/settings.c:436
 msgid "Message digest algorithm for packet authentication"
-msgstr "Algoritmo de resumen de mensaje para la autenticación de paquetes"
+msgstr "Message digest algorithm for packet authentication"
 
 #: src/settings.c:438
 msgid "Use fast LZO compression"
-msgstr "Usar compresión rápida LZO"
+msgstr "Use fast LZO compression"
 
 #: src/settings.c:440
 msgid "External configuration file"
-msgstr "Archivo externo de configuracion"
+msgstr "Harici ayar dosyası"
 
 #: src/settings.c:449
 msgid "Group username"
-msgstr "Nombre de usuario del Grupo"
+msgstr "Grup kullanıcı adı"
 
 #: src/settings.c:450 src/settings.c:473 src/settings.c:511
 msgid "Username"
@@ -391,43 +391,43 @@ msgstr "Kullanıcı"
 
 #: src/settings.c:451
 msgid "IKE Authentication mode"
-msgstr "Modo de autenticación IKE"
+msgstr "IKE Authentication mode"
 
 #: src/settings.c:453
 msgid "Diffie-Hellman group"
-msgstr "Grupo Diffie-Hellman"
+msgstr "Diffie-Hellman grubu"
 
 #: src/settings.c:454
 msgid "Domain"
-msgstr "Dominio"
+msgstr "Domain"
 
 #: src/settings.c:455
 msgid "Vendor"
-msgstr "Proveedor"
+msgstr "Üretici"
 
 #: src/settings.c:456
 msgid "Local port"
-msgstr "Puerto local"
+msgstr "Lokal port"
 
 #: src/settings.c:457
 msgid "Cisco port"
-msgstr "Cisco Port"
+msgstr "Cisco port"
 
 #: src/settings.c:458
 msgid "Application version"
-msgstr "Versión de la Aplicacion"
+msgstr "Uygulama sürümü"
 
 #: src/settings.c:460
 msgid "NAT traversal method"
-msgstr "Método NAT"
+msgstr "NAT yöntemi"
 
 #: src/settings.c:462
 msgid "DPD idle timeout"
-msgstr "Tiempo de inactividad DPD"
+msgstr "DPD boşta zamanaşımı"
 
 #: src/settings.c:463
 msgid "Single DES encryption"
-msgstr "Cifrado Único DES"
+msgstr "Tekli DES şifreleme"
 
 #: src/settings.c:465
 msgid "No encryption"
@@ -435,31 +435,31 @@ msgstr "Şifreleme yok"
 
 #: src/settings.c:474
 msgid "Maximum bandwidth (bps)"
-msgstr "Ancho de banda máximo (bps)"
+msgstr "Maximum bandwidth (bps)"
 
 #: src/settings.c:475
 msgid "Maximum transmit bandwidth (tx)"
-msgstr "Ancho de banda máximo de transmisión (tx)"
+msgstr "Maximum transmit bandwidth (tx)"
 
 #: src/settings.c:477
 msgid "Maximum receive bandwidth (rx)"
-msgstr "Ancho de banda de recepción máximo (rx)"
+msgstr "Maximum receive bandwidth (rx)"
 
 #: src/settings.c:479
 msgid "Use length bit"
-msgstr "Utilizar una longitud de bits"
+msgstr "Use length bit"
 
 #: src/settings.c:480
 msgid "Use challenge authentication"
-msgstr "Usar una autentificacion basada en retos"
+msgstr "Use challenge authentication"
 
 #: src/settings.c:482
 msgid "Default route"
-msgstr "Ruta por defecto"
+msgstr "Default route"
 
 #: src/settings.c:483
 msgid "Use seq numbers"
-msgstr "Utilizar seq en orden"
+msgstr "Use seq numbers"
 
 #: src/settings.c:484
 msgid "Window size"
@@ -467,39 +467,39 @@ msgstr "Pencre boyutu"
 
 #: src/settings.c:485
 msgid "Use only one control channel"
-msgstr "Utilice solo un canal de control"
+msgstr "Use only one control channel"
 
 #: src/settings.c:487
 msgid "Redial if disconnected"
-msgstr "Reconectar si pierde conexión"
+msgstr "Redial if disconnected"
 
 #: src/settings.c:489
 msgid "Redial timeout"
-msgstr "Tiempo de espera para reconectar"
+msgstr "Redial timeout"
 
 #: src/settings.c:491
 msgid "Maximum redial tries"
-msgstr "Intentos máximos de remarcado"
+msgstr "Maximum redial tries"
 
 #: src/settings.c:493
 msgid "Require PAP"
-msgstr "Requiere PAP"
+msgstr "PAP gerekli"
 
 #: src/settings.c:494
 msgid "Require CHAP"
-msgstr "Requiere CHAP"
+msgstr "CHAP gerekli"
 
 #: src/settings.c:495
 msgid "Require authentication"
-msgstr "Requiere autenticacion"
+msgstr "Yetkilendirme gerekli"
 
 #: src/settings.c:497
 msgid "Accept only these peers"
-msgstr "Aceptar solo estos pares"
+msgstr "Accept only these peers"
 
 #: src/settings.c:499
 msgid "Authentication file location"
-msgstr "Localización del archivo de autenticación"
+msgstr "Authentication file location"
 
 #: src/settings.c:501
 msgid "Listen address"
@@ -515,11 +515,11 @@ msgstr "UDP Port"
 
 #: src/settings.c:519
 msgid "Dead peer check count"
-msgstr "Control de cantidad de pares muertos"
+msgstr "Dead peer check count"
 
 #: src/settings.c:521
 msgid "Dead peer check interval"
-msgstr "Intervalo de control de pares muertos"
+msgstr "Dead peer check interval"
 
 #: src/settings.c:523
 msgid "Debug level"
@@ -527,47 +527,47 @@ msgstr "Hata ayıklama seviyesi"
 
 #: src/settings.c:524
 msgid "Refuse EAP authentication"
-msgstr "Rechazar autenticación EAP"
+msgstr "Refuse EAP authentication"
 
 #: src/settings.c:526
 msgid "Refuse PAP authentication"
-msgstr "Rechazar autenticación PAP"
+msgstr "Refuse PAP authentication"
 
 #: src/settings.c:528
 msgid "Refuse CHAP authentication"
-msgstr "Rechazar autenticación CHAP"
+msgstr "Refuse CHAP authentication"
 
 #: src/settings.c:530
 msgid "Refuse MSCHAP authentication"
-msgstr "Rechazar autenticación MSCHAP"
+msgstr "Refuse MSCHAP authentication"
 
 #: src/settings.c:532
 msgid "Refuse MSCHAPv2 authentication"
-msgstr "Rechazar autenticación MSCHAPv2"
+msgstr "Refuse MSCHAPv2 authentication"
 
 #: src/settings.c:534
 msgid "Disable BSD compression"
-msgstr "Desactivar compresión BSD"
+msgstr "Disable BSD compression"
 
 #: src/settings.c:536
 msgid "Disable DEFLATE compression"
-msgstr "Desactivar compresión DEFLATE"
+msgstr "Disable DEFLATE compression"
 
 #: src/settings.c:538
 msgid "Require the use of MPPE"
-msgstr "Requiere el uso de MPPE"
+msgstr "Require the use of MPPE"
 
 #: src/settings.c:540
 msgid "Require the use of MPPE 40 bit"
-msgstr "Requiere el uso de MPPE 40 bit"
+msgstr "Require the use of MPPE 40 bit"
 
 #: src/settings.c:542
 msgid "Require the use of MPPE 128 bit"
-msgstr "Requiere el uso de MPPE 128 bit"
+msgstr "Require the use of MPPE 128 bit"
 
 #: src/settings.c:544
 msgid "Allow MPPE to use stateful mode"
-msgstr "Permitir que MPPE use modo stateful"
+msgstr "Allow MPPE to use stateful mode"
 
 #: src/settings.c:546
 msgid "No Van Jacobson compression"
@@ -587,7 +587,7 @@ msgstr "_Unut"
 
 #: src/settings.c:569
 msgid "Set all properties to defaults."
-msgstr "Establecer todas las propiedades para el patrón inicial."
+msgstr "Bütün ayarları varsayılana ayarla."
 
 #: src/settings.c:570
 msgid "Remove this service."
@@ -615,7 +615,7 @@ msgstr "Çıkış"
 
 #: src/technology.c:120 src/vpn.c:178
 msgid "Connected"
-msgstr "Bağlandı"
+msgstr "Bağlı"
 
 #: src/technology.c:135
 msgid "Tethering"
@@ -627,11 +627,11 @@ msgstr "Bağlı değil"
 
 #: src/technology.c:220
 msgid "Disable _tethering"
-msgstr "Kapat _bağlantı"
+msgstr "Bağlantı paylaşımı _kapat"
 
 #: src/technology.c:222 src/technology.c:312
 msgid "Enable _tethering"
-msgstr "Aktif _bağlantı"
+msgstr "Bağlantı paylaşımı _aç"
 
 #: src/technology.c:245 src/technology.c:307 src/technology.c:576
 msgid "_Connect"
@@ -647,7 +647,7 @@ msgstr "Des_conectar"
 
 #: src/technology.c:619
 msgid "Failed to enable ethernet tethering."
-msgstr "Error al activar anclaje Ethernet."
+msgstr "Ethernet bağlantı paylaşımı başarısız."
 
 #: src/technology.c:620
 msgid "Ethernet tethering has to be manually allowed in /etc/connman/main.conf."
@@ -663,7 +663,7 @@ msgstr "Hata"
 
 #: src/util.c:123
 msgid "Association"
-msgstr "Asociacion"
+msgstr "İlişkili bağlantı"
 
 #: src/util.c:125
 msgid "Configuration"
@@ -675,7 +675,7 @@ msgstr "Hazır"
 
 #: src/util.c:129
 msgid "Disconnected"
-msgstr "Bağlanılmadı"
+msgstr "Bağlantısız"
 
 #: src/util.c:131
 msgid "Online"
@@ -687,7 +687,7 @@ msgstr "Hata"
 
 #: src/util.c:139
 msgid "Out of range"
-msgstr "Fuera de rango"
+msgstr "Aralık dışı"
 
 #: src/util.c:141
 msgid "PIN missing"
@@ -699,7 +699,7 @@ msgstr "DHCP başarısız"
 
 #: src/util.c:145
 msgid "Connecting failed"
-msgstr "Conexión fallida"
+msgstr "Bağlantı başarısız"
 
 #: src/util.c:147
 msgid "Login failed"
@@ -719,7 +719,7 @@ msgstr "Bağlanıyor"
 
 #: src/wireless.c:131
 msgid "Set Access Point SSID and passphrase"
-msgstr "Definir punto de acceso SSID y contraseña"
+msgstr "Erişim noktası ve parola ayarla"
 
 #: src/wireless.c:143
 msgid "SSID"
