@@ -463,7 +463,7 @@ msgstr "Use seq numbers"
 
 #: src/settings.c:484
 msgid "Window size"
-msgstr "Pencre boyutu"
+msgstr "Pencere boyutu"
 
 #: src/settings.c:485
 msgid "Use only one control channel"
@@ -643,7 +643,7 @@ msgstr "Yeniden _bağlan"
 
 #: src/technology.c:249 src/technology.c:574
 msgid "Dis_connect"
-msgstr "Des_conectar"
+msgstr "Bağlantıyı_kes"
 
 #: src/technology.c:619
 msgid "Failed to enable ethernet tethering."
