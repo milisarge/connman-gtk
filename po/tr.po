@@ -643,7 +643,7 @@ msgstr "Yeniden _bağlan"
 
 #: src/technology.c:249 src/technology.c:574
 msgid "Dis_connect"
-msgstr "Bağlantıyı_kes"
+msgstr "Bağlantıyı _kes"
 
 #: src/technology.c:619
 msgid "Failed to enable ethernet tethering."
